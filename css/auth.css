@@ -1,0 +1,73 @@
+/* Auth (Signup/Login) Page */
+.auth-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .auth-info {
+    flex: 1;
+    background: #4f46e5;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    text-align: left;
+  }
+  
+  .auth-info h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .auth-info p {
+    font-size: 1.1rem;
+    color: #e0e0ff;
+  }
+  
+  .auth-form {
+    flex: 1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+  }
+  
+  .auth-form h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .auth-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form input {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .auth-form button {
+    padding: 0.75rem;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .auth-form button:hover {
+    background-color: #3730a3;
+  }
+  
+  .form-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
