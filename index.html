@@ -12,11 +12,16 @@
   <!-- Navbar -->
   <header class="navbar">
     <div class="container">
-      <h1 class="logo">TeachaLearn</h1>
+      <h1 class="logo">TeachLearn</h1>
       <nav class="navbar">
         <div class="container">
-          <div class="hamburger" id="hamburger">
-            <a href="dashboard.html">&#9776;</a>
+          <div class="dropdown">
+            <button class="dropdown-btn" id="hamburger">&#9776;</button>
+            <div class="dropdown-menu" id="dropdown-menu">
+              <a href="dashboard-student.html">Student Dashboard</a>
+              <a href="dashboard-instructor.html">Instructor Dashboard</a>
+              <a href="dashboard-admin.html">Admin Dashboard</a>
+            </div>
           </div>
 
           <ul class="nav-links">

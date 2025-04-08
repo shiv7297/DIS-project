@@ -1,0 +1,66 @@
+<!-- dashboard-student.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Dashboard | TeachLearn</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/dashboard-student.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">TeachLearn</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="logout.html">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Dashboard -->
+  <section class="dashboard container">
+    <h2>Welcome, Student 👋</h2>
+    <div class="dashboard-cards">
+      <div class="card">
+        <h3>Enrolled Courses</h3>
+        <p>5 Active</p>
+      </div>
+      <div class="card">
+        <h3>Completed</h3>
+        <p>2 Courses</p>
+      </div>
+      <div class="card">
+        <h3>Progress</h3>
+        <p>60% Overall</p>
+      </div>
+    </div>
+
+    <table class="course-table">
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Instructor</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Web Development</td>
+          <td>John Doe</td>
+          <td>In Progress</td>
+          <td><a href="#">Continue</a></td>
+        </tr>
+        <!-- Add more rows here -->
+      </tbody>
+    </table>
+  </section>
+
+</body>
+</html>
