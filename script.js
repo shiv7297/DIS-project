@@ -14,3 +14,35 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Login dropdown toggle
+  const loginBtn = document.getElementById("loginDropdownBtn");
+  const loginMenu = document.getElementById("loginDropdownMenu");
+
+  loginBtn.addEventListener("click", () => {
+    loginMenu.style.display =
+      loginMenu.style.display === "block" ? "none" : "block";
+  });
+
+  // Sign Up dropdown toggle
+  const signupBtn = document.getElementById("signupDropdownBtn");
+  const signupMenu = document.getElementById("signupDropdownMenu");
+
+  signupBtn.addEventListener("click", () => {
+    signupMenu.style.display =
+      signupMenu.style.display === "block" ? "none" : "block";
+  });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!loginBtn.contains(e.target) && !loginMenu.contains(e.target)) {
+      loginMenu.style.display = "none";
+    }
+    if (!signupBtn.contains(e.target) && !signupMenu.contains(e.target)) {
+      signupMenu.style.display = "none";
+    }
+  });
+});

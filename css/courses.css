@@ -1,0 +1,74 @@
+/* Search and Filter */
+.search-filter {
+    background: #f8f8f8;
+    padding: 1rem 0;
+  }
+  
+  .search-filter .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  #searchBar {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  #categoryFilter {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  /* Courses Grid */
+  .courses-grid {
+    padding: 2rem 0;
+  }
+  
+  .courses-grid .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  .course-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .course-card img {
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .course-card h3 {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .course-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .course-card .btn {
+    margin-top: 1rem;
+    display: inline-block;
+  }
+  

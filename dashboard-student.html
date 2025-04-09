@@ -17,15 +17,38 @@
       <nav>
         <ul class="nav-links">
           <li><a href="courses.html">Courses</a></li>
+          <li><a href="#my-profile">My Profile</a></li>
+          <li><a href="#">Settings</a></li>
           <li><a href="logout.html">Logout</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <section class="profile-section container" id="my-profile">
+  <h2 class="section-heading">My Profile</h2>
+  <div class="profile-card">
+    <img src="assets/img/student-avatar.png" alt="Profile Picture" class="profile-img" />
+
+    <div class="profile-info">
+      <div class="info-group">
+        <p><strong>Name:</strong> Jane Doe</p>
+        <p><strong>Email:</strong> jane.doe@example.com</p>
+        <p><strong>Enrolled Since:</strong> January 2025</p>
+        <p><strong>Membership:</strong> Free Plan</p>
+      </div>
+      <div class="profile-actions">
+        <a href="#" class="btn primary-btn">Edit Profile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
   <!-- Dashboard -->
   <section class="dashboard container">
-    <h2>Welcome, Student 👋</h2>
+    <h2>Welcome back, Student 👋</h2>
+    <p class="subtext">Here’s a quick overview of your learning progress.</p>
+
     <div class="dashboard-cards">
       <div class="card">
         <h3>Enrolled Courses</h3>
@@ -39,8 +62,13 @@
         <h3>Progress</h3>
         <p>60% Overall</p>
       </div>
+      <div class="card">
+        <h3>Upcoming Deadlines</h3>
+        <p>3 Assignments</p>
+      </div>
     </div>
 
+    <h3 class="section-heading">Your Courses</h3>
     <table class="course-table">
       <thead>
         <tr>
@@ -55,12 +83,26 @@
           <td>Web Development</td>
           <td>John Doe</td>
           <td>In Progress</td>
-          <td><a href="#">Continue</a></td>
+          <td><a href="#" class="btn small-btn">Continue</a></td>
         </tr>
-        <!-- Add more rows here -->
+        <tr>
+          <td>Python Programming</td>
+          <td>Jane Smith</td>
+          <td>Completed</td>
+          <td><a href="#" class="btn small-btn">Review</a></td>
+        </tr>
+        <tr>
+          <td>Machine Learning</td>
+          <td>Alan Turing</td>
+          <td>Not Started</td>
+          <td><a href="#" class="btn small-btn">Start</a></td>
+        </tr>
       </tbody>
     </table>
   </section>
+
+
+
 
 </body>
 </html>

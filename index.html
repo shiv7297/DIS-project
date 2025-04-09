@@ -15,26 +15,32 @@
       <h1 class="logo">TeachLearn</h1>
       <nav class="navbar">
         <div class="container">
-          <div class="dropdown">
-            <button class="dropdown-btn" id="hamburger">&#9776;</button>
-            <div class="dropdown-menu" id="dropdown-menu">
-              <a href="dashboard-student.html">Student Dashboard</a>
-              <a href="dashboard-instructor.html">Instructor Dashboard</a>
-              <a href="dashboard-admin.html">Admin Dashboard</a>
-            </div>
-          </div>
+          
 
           <ul class="nav-links">
+            <li><a href="courses.html">Courses</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#how">How It Works</a></li>
           </ul>
 
           <!-- Add login/signup here -->
-          <div class="auth-buttons">
-            <a href="login.html" class="btn">Login</a>
-            <a href="signup.html" class="btn primary-btn">Sign Up</a>
+          <div class="auth-dropdown">
+            <button class="btn dropdown-login-btn" id="loginDropdownBtn">Login</button>
+            <div class="dropdown-login-menu" id="loginDropdownMenu">
+              <a href="login-student.html">Student Login</a>
+              <a href="login-instructor.html">Instructor Login</a>
+              <a href="login-admin.html">Admin Login</a>
+            </div>
           </div>
-        </div>
+          
+          <div class="auth-dropdown">
+            <button class="btn primary-btn dropdown-signup-btn" id="signupDropdownBtn">Sign Up</button>
+            <div class="dropdown-signup-menu" id="signupDropdownMenu">
+              <a href="student-signup.html">Student Sign Up</a>
+              <a href="instructor-signup.html">Instructor Sign Up</a>
+              <a href="admin-signup.html">Admin Sign Up</a>
+            </div>
+          </div>
       </nav>
 
       
@@ -132,10 +138,11 @@
       <div class="footer-col">
         <h4>Quick Links</h4>
         <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Support</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="dashboard-student.html">Have a look</a></li>
         </ul>
       </div>
   
